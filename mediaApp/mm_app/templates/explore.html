@@ -1,0 +1,31 @@
+
+{% extends "layout.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+
+<section class="section ">
+          <h1 class="title is-1">Media Explore</h1>
+
+  <div class="container">
+<div class="columns">
+      <div class="column">
+            <h3 class="subtitle is-5">Explore</h3><br>
+
+            <div class="">
+                Grid here
+            </div>
+
+      </div>
+      <div class="column">
+        <h3 class="subtitle is-5">SExplore</h3><br>
+            <div class="">
+                Grid here
+            </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+<script src="{{ url_for('static', filename='js/faqs.js') }}"></script>
+
+{% endblock content %}

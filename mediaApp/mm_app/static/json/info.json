@@ -1,0 +1,83 @@
+[
+  {
+    "info_code": "aboutME",
+    "title": "About Me: Elijah Ruffin",
+    "body": "About Me body",
+    "body2": "About Me body 2",
+    "notes": "About Me notes",
+    "chapters": [
+      {
+        "title": "Early Life",
+        "paragraphs": [
+          "I was born in...",
+          "I went to school at..."
+        ]
+      },
+      {
+        "title": "Career",
+        "paragraphs": [
+          "I started working at...",
+          "Then I moved to..."
+        ]
+      }
+    ]
+  },
+  {
+    "info_code": "workExp",
+    "title": "Work Experience",
+    "body": "Work Experience body",
+    "body2": "Work Experience body 2",
+    "notes": "Work Experience notes",
+    "chapters": [
+      {
+        "title": "Backend Projects",
+        "paragraphs": [
+          "I was born in...",
+          "I went to school at..."
+        ]
+      },
+      {
+        "title": "Frontend Projects",
+        "paragraphs": [
+          "I started working at...",
+          "Then I moved to..."
+        ]
+      },
+      {
+        "title": "Devops Projects",
+        "paragraphs": [
+          "I was born in...",
+          "I went to school at..."
+        ]
+      }
+    ]
+  },
+  {
+    "info_code": "devRate",
+    "title": "Development Rate and Fixed Pricing",
+    "body": "Development Rate body",
+    "body2": "Development Rate body 2",
+    "notes": "Development Rate notes"
+  },
+  {
+    "info_code": "aboutThisSite",
+    "title": "Development of this Site",
+    "body": "This site development body",
+    "body2": "This site development 2",
+    "notes": "This site development notes"
+  },
+  {
+    "info_code": "testimonials",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "body2": "Testimonials body 2",
+    "notes": "Development Rate notes"
+  },
+    {
+    "info_code": "company",
+    "title": "Comapany Information",
+    "body": "Company Info body.",
+    "body2": "Company Info  body 2",
+    "notes": "Company info notes"
+  }
+]

@@ -1,0 +1,78 @@
+
+{% extends "layout.html" %}
+
+{% block title %} {{title}} {% endblock %}
+
+{% block content %}
+
+<section class="section ">
+    <h1 class="title is-1">Contact</h1>
+
+      <div class="container">
+        <p class="subtitle is-4">Send me a message below, and I'll reply with an automated confirmation email. </p>
+
+        <div class="columns is-half is-offset-one-quarter">
+          <div class="column">
+
+            <form method="post">
+              {{ form.hidden_tag() }}
+
+              <div class="field">
+                {{ form.name.label }}
+                <div class="control">
+                    {{ form.name(class="input") }}
+                </div>
+              </div>
+
+              <div class="field">
+                {{ form.company.label }}
+                <div class="control">
+                    {{ form.company(class="input") }}
+                </div>
+              </div>
+
+              <div class="field">
+                {{ form.email.label }}
+                <div class="control">
+                    {{ form.email(class="input", type="email") }}
+                </div>
+                <p class="help">This email is invalid.</p>
+
+              </div>
+
+              <div class="field">
+                {{ form.subject.label }}
+                <div class="control">
+                    <div class="select">
+                        {{ form.subject(class="select") }}
+                    </div>
+                </div>
+              </div>
+
+              <div class="field">
+                {{ form.content.label }}
+                <div class="control">
+                    {{ form.content(class="textarea") }}
+                </div>
+              </div>
+
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-damger" type="submit">Submit</button>
+                </div>
+            </div>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+</section>
+
+<script src={{ url_for('static', filename='js/contact.js') }}></script>
+
+{% endblock content %}
+

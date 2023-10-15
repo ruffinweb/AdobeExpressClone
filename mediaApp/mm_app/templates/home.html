@@ -1,0 +1,35 @@
+
+{% extends "layout.html" %} {% block content %}
+
+<div id="particles-js"></div>
+
+<div class="home-title" id="homeTitleColors">
+  <p class="title">
+    Multimedia Website
+  </p>
+  <p class="subtitle">
+    ?????????????
+  </p>
+</div>
+
+<div class="email-confirm-container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+    <article class="message is-success is-small email-confirm-message">
+
+        {% for category, message in messages %}
+     <div class="message-header">
+        <p>Success</p>
+        <button class="delete" aria-label="delete"></button>
+      </div>
+      <div class="message-body success success-{{ category }}">
+        {{ message }}
+      </div>
+        {% endfor %}
+      {% endif %}
+    </article>
+
+    {% endwith %}
+</div>
+
+{% endblock content %}

@@ -1,0 +1,62 @@
+Elijah Ruffin
+Software Developer: Linux | Nginx | PostgreSQL | Python
+-------------------------------------------------------
+Contact Information
+- Email: eliruffin.tech@gmail.com
+- Location: DC | Maryland | Virginia
+- Website: ruffin.bio
+- Linkedin: [Linkedin URL]
+
+Summary
+-------
+Software Developer with experience in utilizing ever-changing computer software and programs. Possesses development knowledge and expertise in Python. Looking to leverage my knowledge and experience into a role as a Software Developer.
+
+Skills
+------
+- Python
+- Flask
+- Django
+- Requests
+- Pandas
+
+- Javascript
+- NodeJS
+- Async
+- ExpressJS
+- Fetch
+
+- SQL
+- SQLite
+- PostgreSQL
+- MySQL
+- SQLAlchemy
+
+- Linux/Unix
+- Debian
+- Ubuntu
+- Shell Scripting
+- Bash
+
+Experience
+----------
+Participant
+SEP 2021 – NOV 2021
+Hack the Hood Tech Foundations – Virtual
+- Learned the fundamentals of essential tech skills like version control with GitHub, shell scripting on Windows/Linux/Mac, user experience and design, and the software development life cycle.
+- Gained exposure to career panels, professional lectures, and sponsored workshops focused on navigating an increasingly diverse workforce and solving current social justice issues with technology.
+
+Participant
+FEB 2022 – MAY 2022
+Accenture Scholarship Program – Virtual
+- One of 600 individuals selected to receive a full scholarship to train and learn the fundamentals of programming and predictive analytics through Udacity's Intro to Programming.
+- Created web pages using HTML and modified web page styles with CSS.
+- Used Python to get and process data from a web-based API.
+
+Education
+---------
+- Automate the Boring Stuff: Book and Tutorial ([Website](https://automatetheboringstuff.com/))
+- Mozilla Development Network: Articles and Guides ([Website](https://developer.mozilla.org/en-US/docs/Web))
+- Debian/Linux Documentation ([Website](https://www.debian.org/doc/manuals/debian-reference/ch01.en.html))
+- The Odin Project: Tutorials and Course ([Website](https://www.theodinproject.com/paths/full-stack-javascript))
+- Corey Schafer Flask: Youtube Series ([Youtube Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH))
+- Catonsville High School: Diploma

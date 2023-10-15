@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>{% block title %}{{ title }}{% endblock %}</title>
+          <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+          <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+          <link rel="shortcut icon" href="#">
+    </head>
+    <body>
+
+<nav class="navbar topNav">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="../">
+						<img class="light-svg-image" src="{{ url_for('static', filename='svg_images/camera-reels.svg') }}" width="112" height="28">
+					</a>
+					<div class="navbar-burger burger" data-target="topNav">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div id="topNav" class="navbar-menu">
+					<div class="navbar-start">
+						<a class="navbar-item" href="{{ url_for('explore.categories') }}"><h3>Categories</h3></a>
+						<a class="navbar-item" href="{{ url_for('explore.tags') }}"><h3>Tags</h3></a>
+						<a class="navbar-item" href="{{ url_for('explore.explore') }}"><h3>Locations</h3></a>
+						<a class="navbar-item" href="{{ url_for('explore.explore') }}"><h3>Videos</h3></a>
+						<a class="navbar-item" href="{{ url_for('explore.explore') }}"><h3>Videos</h3></a>
+						<a class="navbar-item" href="{{ url_for('explore.explore') }}"><h3>Gifs</h3></a>
+
+					</div>
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<div class="field is-grouped">
+								<p class="control">
+									<a href="{{ url_for('contact.contact') }}" class="button is-small">
+										<span class="icon">
+											<img class="light-svg-image" src="{{ url_for('static', filename='svg_images/journal-plus.svg') }}" class="fa fa-user-plus">
+										</span>
+										<span>
+											Register
+										</span>
+									</a>
+								</p>
+								<p class="control">
+									<a href="{{ url_for('contact.contact') }}" class="button is-small is-info is-outlined">
+										<span class="icon">
+											<img class="light-svg-image" src="{{ url_for('static', filename='svg_images/person.svg') }}" class="fa fa-user">
+										</span>
+										<span>Login</span>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+{#		<nav class="navbar">#}
+{#			<div class="container">#}
+{#				<div class="navbar-menu">#}
+{#					<div class="navbar-start">#}
+{#						<a class="navbar-item" href="{{ url_for('main.home') }}">My Feed</a>#}
+{#						<a class="navbar-item" href="{{ url_for('explore.explore') }}">Explore</a>#}
+{#						<a class="navbar-item" href="{{ url_for('explore.explore') }}">Latest</a>#}
+{#					</div>#}
+{#					<div class="navbar-end">#}
+{#                        <img class="light-svg-image" src="{{ url_for('static', filename='svg_images/search-heart.svg') }}">#}
+{#						<div class="navbar-item ">#}
+{#							<input class="input" type="search" placeholder="Search Videos...">#}
+{#						</div>#}
+{#					</div>#}
+{#				</div>#}
+{#			</div>#}
+{#		</nav>#}
+        <div class="page-content" id="renderedContent">
+            {% block content %} {% endblock %}
+        </div>
+
+        <div class="footer-background-container">
+            <footer class="container">
+            <div class="footer-nav-links">
+
+              <div class="bottom-section">
+                <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
+
+                  <li class="m-4"><a class="button" href="{{ url_for('main.home' ) }}">Link</a></li>
+                  <li class="m-4"><a href="{{ url_for('main.home') }}" class="button">Link</a></li>
+                  <li class="m-4"><a class="button" href="{{ url_for('main.home' ) }}">Link</a></li>
+                  <li class="m-4"><a class="button" href="{{ url_for('main.home' ) }}">Link</a></li>
+                  <li class="m-4"><a class="button" href="{{ url_for('main.home' ) }}">Link</a></li>
+                  <li class="m-4"><a class="button" href="{{ url_for('faqs.faqs') }}">FAQs</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
+
+            <div class="trademark-bar">
+                <div class="is-flex-tablet is-justify-content-between is-align-items-center">
+                  <p>MIT License © 2023</p>
+                  <div class="py-2 is-hidden-tablet"></div>
+                  <div class="ml-auto">
+                    <a class="mr-4 is-inline-block" href="#">
+                      <img class="light-svg-image" src="{{ url_for('static', filename='svg_images/twitter.svg') }}" alt=""></a>
+                    <a class="mr-4 is-inline-block" href="#">
+                      <img class="light-svg-image" src="{{ url_for('static', filename='svg_images/instagram.svg') }}" alt=""></a>
+                    <a class="mr-4 is-inline-block" href="#">
+                      <img class="light-svg-image" src="{{ url_for('static', filename='svg_images/facebook.svg') }}" alt=""></a>
+                    <a class="mr-4 is-inline-block" href="#">
+                      <img class="light-svg-image" src="{{ url_for('static', filename='svg_images/youtube.svg') }}" alt=""></a>
+                    <a class="is-inline-block" href="#">
+                      <img class="light-svg-image" src="{{ url_for('static', filename='svg_images/tiktok.svg') }}" alt=""></a>
+                  </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+
+        <script src={{ url_for('static', filename='js/app.js') }}></script>
+    </body>
+</html>

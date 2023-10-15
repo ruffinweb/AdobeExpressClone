@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What types of web development services do you offer?",
+    "answer": "We offer a full suite of web development services, including frontend and backend development, web design, mobile app development, e-commerce solutions, and SEO optimization."
+  },
+  {
+    "question": "Do you build websites using a particular tech stack?",
+    "answer": "We are experienced in a variety of tech stacks and can adapt to meet your specific needs. We frequently use Python with Flask for the backend, and we specialize in both vanilla JavaScript and React for frontend development."
+  },
+  {
+    "question": "How does your development process work?",
+    "answer": "Our development process typically includes the phases of planning, design, development, testing, and deployment. Throughout the process, we use agile methodologies to ensure that we are adapting to any changing needs or challenges."
+  },
+  {
+    "question": "Do you offer post-launch maintenance and support?",
+    "answer": "Absolutely. We provide ongoing maintenance and support packages that include performance monitoring, bug fixes, and updates to keep your website or app running smoothly."
+  },
+  {
+    "question": "Do you also provide hosting solutions?",
+    "answer": "Yes, we offer a range of hosting solutions tailored to fit the size and needs of your project, whether it's a small personal website or a large enterprise application."
+  },
+  {
+    "question": "Do you follow industry best practices and standards?",
+    "answer": "Yes, we strictly adhere to best practices and standards, including W3C guidelines, to ensure the quality, performance, and security of your web application."
+  },
+  {
+    "question": "How do you handle data security?",
+    "answer": "Data security is a top priority for us. We use state-of-the-art encryption, secure data storage solutions, and follow best practices to protect your data."
+  },
+  {
+    "question": "Do you have experience in responsive design?",
+    "answer": "Yes, all the websites we build are optimized for both mobile and desktop to ensure an excellent user experience on any device."
+  },
+  {
+    "question": "What is your payment structure?",
+    "answer": "Our payment structure is flexible, depending on the size and scope of your project. We usually require an initial deposit, followed by milestone-based payments."
+  },
+  {
+    "question": "Do you offer SEO services?",
+    "answer": "Yes, we offer comprehensive SEO services to help your website rank better in search engine results and reach a larger audience."
+  },
+  {
+    "question": "How long does it typically take to complete a project?",
+    "answer": "The timeline varies depending on the complexity and scope of the project. A simple website could take as little as 4-6 weeks, while a complex web application might take several months."
+  },
+  {
+    "question": "Can I see some examples of your past work?",
+    "answer": "Certainly! Our portfolio is available on our website, showcasing a range of projects we have completed in various industries."
+  },
+  {
+    "question": "How do you handle project delays?",
+    "answer": "We make every effort to meet project timelines, but should a delay occur, we communicate proactively to keep you updated. We will also discuss any adjustments needed to the project scope or timeline."
+  },
+  {
+    "question": "Do you provide documentation for the projects?",
+    "answer": "Yes, we provide complete documentation to help you understand the architecture, setup, and any custom code in your project."
+  },
+  {
+    "question": "What if I want to make changes to the project after it's completed?",
+    "answer": "We offer a warranty period for minor tweaks and bug fixes. For more extensive changes, we are happy to discuss options for further development."
+  }
+]

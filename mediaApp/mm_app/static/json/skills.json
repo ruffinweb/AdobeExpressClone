@@ -1,0 +1,23 @@
+[
+  {
+    "skillName": "Linux",
+    "skillsList": ["Debian", "Ubuntu", "Bash", "Shell Scripting", "Nginx", "SSH", "FTP", "UFW", "FFMpeg"]
+  },
+  {
+    "skillName": "Databases",
+    "skillsList": ["SQLite", "PostgreSQL", "MySQL", "SQLAlchemy", "MongoDB", "", ""]
+  },
+  {
+    "skillName": "Python",
+    "skillsList": ["Flask", "Django", "Gunicorn", "Pandas", "Requests", "Pillow", "Selenium", "Pytest",
+                  "BeautifulSoup4", "MatPlotLib", "Click", "PyQT"]
+  },
+  {
+    "skillName": "HTML/CSS",
+    "skillsList": ["HTMX", "Sass", "Scss", "Less", "Jinja", "", "", "", "", "", "", ""]
+  },
+  {
+    "skillName": "Javascript",
+    "skillsList": ["Vanilla JS", "Jquery", "ExpressJS", "AJAX", "Async", "JSON"]
+  }
+]

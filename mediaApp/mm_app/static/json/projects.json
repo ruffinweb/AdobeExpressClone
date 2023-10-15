@@ -1,0 +1,56 @@
+[
+    {
+    "project_code": "archetype",
+    "title": "The Archetype API",
+    "body": "Archetype API body",
+    "notes": "Archetype API notes"
+  },
+  {
+    "project_code": "appointments",
+    "title": "Development Rate and Fixed Pricing",
+    "body": "Development Rate body",
+    "notes": "Development Rate notes"
+  },
+  {
+    "project_code": "cms",
+    "title": "Development of this Site",
+    "body": "This site development body",
+    "notes": "This site development notes"
+  },
+  {
+    "project_code": "editing",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "notes": "Development Rate notes"
+  },
+  {
+    "project_code": "messaging",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "notes": "Development Rate notes"
+  },
+  {
+    "project_code": "aiAssistant",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "notes": "Development Rate notes"
+  },
+  {
+    "project_code": "editing",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "notes": "Development Rate notes"
+  },
+  {
+    "project_code": "editing",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "notes": "Development Rate notes"
+  },
+  {
+    "project_code": "editing",
+    "title": "Testimonials and Satisfied Customers",
+    "body": "Testimonials body",
+    "notes": "Development Rate notes"
+  }
+]

@@ -1,0 +1,91 @@
+
+{% extends "layout.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+
+<section class="section">
+    <h1 class="title is-1">Media Categories</h1>
+
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+            <h3 class="subtitle is-5">Categories</h3><br>
+
+            <div class="all-genre-cards">
+              {% for category in category_pages.items %}
+              <a href="{{ url_for('one_video', vid_name=category.file_name) }}">
+                <div class="genre-card">
+                    <video id="{{ 'video'+loop.index0|string }}" muted loop playsinline poster="">
+                      <source src="{{ url_for('static', filename='folders/'+category.folder_name+'/'+'clip1.mp4') }}" type="video/mp4">
+                    </video>
+                    <h3>{{ category.file_name }}</h3>
+                </div>
+              </a>
+              {% endfor %}
+            </div>
+
+
+      </div>
+      <div class="column">
+        <h3 class="subtitle is-5">Categories</h3><br>
+        <div class="page-navigation">
+          {% for page_num in category_pages.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
+          {% if page_num %}
+            {% if category_pages.page == page_num %}
+              <a class="button-three" id="currentPage" href="{{ url_for('explore.categories',page=page_num) }}">{{ page_num }}</a>
+            {% else %}
+              <a class="button-three" href="{{ url_for('explore.categories',page=page_num) }}">{{ page_num }}</a>
+            {% endif %}
+          {% else %}
+            ...
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+
+<script>
+  var videos = document.querySelectorAll('video');
+  for(var i=0; i<videos.length; i++)
+    videos[i].addEventListener('play', function(){pauseAll(this)}, true);
+
+  function pauseAll(elem){
+    for(var i=0; i<videos.length; i++){
+      //Is this the one we want to play?
+      if(videos[i] == elem) continue;
+      //Have we already played it && is it already paused?
+      if(videos[i].played.length > 0 && !videos[i].paused){
+      // Then pause it now
+        videos[i].pause();
+      }
+    }
+    }
+
+  // create an array of ids the same number of videos on each pages.
+  // What is a better way to do this
+  const videoIds = ['video0', 'video1', 'video2', 'video3', 'video4', 'video5', 'video6', 'video7', 'video8', 'video9', 'video10', 'video11', 'video12', 'video13', 'video14', 'video15'];
+
+  // iterate over each id
+  videoIds.forEach((id) => {
+      // get the video element by id
+      const video = document.getElementById(id);
+
+      // add event listener for mouseover
+      video.addEventListener('mouseover', function() {
+          this.play();
+      });
+
+      // add event listener for mouseout
+      video.addEventListener('mouseout', function() {
+          this.pause();
+      });
+  });
+</script>
+
+
+<script src="{{ url_for('static', filename='js/faqs.js') }}"></script>
+
+{% endblock content %}
